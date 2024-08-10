@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #111;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+input::placeholder{
+  color: black;
+}
+input{
+  color: black;
+}
